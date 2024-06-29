@@ -8,7 +8,7 @@ import io.swagger.v3.oas.annotations.media.Schema;
 
 import java.time.LocalDateTime;
 
-@Schema(description = "Details about CurrencyQuery")
+@Schema(description = "Details about Goldquerry")
 @Entity
 public class GoldQuery {
 
