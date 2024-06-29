@@ -18,7 +18,7 @@ public class GoldQuery {
     private Long id;
     @Schema(description = "The average rate for gold", example = "5.0938")
     private double averageRate;
-    @Schema(description = "The value", example = "5.0938")
+    @Schema(description = "The value", example = "GOLD")
     private Gold gold;
     @Schema(description = "Time of query creation", example = "2024-06-29T15:25:48.345178")
     private LocalDateTime queryTime;
